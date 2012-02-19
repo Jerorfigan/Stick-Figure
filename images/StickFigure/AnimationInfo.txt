@@ -1,0 +1,6 @@
+# Format: 
+# Frame1AnimationName Frame1Duration Frame1Rect.Left Frame1Rect.Top Frame1Rect.Right Frame1Rect.Bottom Frame2AnimationName ...
+WalkRight 0.167 0 0 64 64 0.167 64 0 128 64 0.167 128 0 192 64
+WalkLeft 0.167 0 64 64 128 0.167 64 64 128 128 0.167 128 64 192 128 
+Jump 0.167 0 128 64 192 0.167 64 128 128 192 0.167 128 128 192 192
+Idle 0.167 128 128 192 192

@@ -1,0 +1,39 @@
+#format: ShapeType point1 point2 point3 ...
+#
+#
+# Sample Rectangle (points MUST be in this order, with pt 1 being top-left vertex and going clockwise):
+#
+#
+#    Pt 1            Pt 2
+#      ----------------
+#      |              |
+#      |              |
+#      |              |
+#      ----------------
+#    Pt 4            Pt 3
+#
+#
+# Sample Triangles (points MUST be in order indicated by sample triangles, with Pt 1 being the non-right angle
+# vertex that makes up one end of the vertical edge, pt 2 being the right angle vertex, and pt 3 being the remaining vertex ):
+#
+#     Pt 1                     Pt 1       Pt 3    Pt 2            Pt 2    Pt 3
+#      |\                       /|          --------               --------
+#      | \                     / |           \     |               |     /
+#      |  \                   /  |            \    |               |    /
+#      |   \                 /   |             \   |               |   /
+#      |    \               /    |              \  |               |  /
+#      |     \             /     |               \ |               | /  
+#      --------           --------                \|               |/
+#     Pt 2    Pt 3      Pt 3    Pt 2             Pt 1             Pt 1
+#
+Rectangle ( 0 , 100 ) ( 100 , 100 ) ( 100 , 200 ) ( 0 , 200 ) 
+Rectangle ( 50 , 300 ) ( 300 , 300 ) ( 300 , 400 ) ( 50 , 400 ) 
+Rectangle ( 0 , 500 ) ( 800 , 500 ) ( 800 , 600 ) ( 0 , 600 )
+Rectangle ( 0 , 0 ) ( 15 , 0 ) ( 15 , 600 ) ( 0 , 600 )
+Rectangle ( 785 , 0 ) ( 800 , 0 ) ( 800 , 600 ) ( 785 , 600 )
+Rectangle ( 700 , 450 ) ( 765 , 450 ) ( 765 , 485 ) ( 700 , 485 )
+Rectangle ( 600 , 415 ) ( 650 , 415 ) ( 650 , 420 ) ( 600 , 420 )
+Rectangle ( 400 , 390 ) ( 500 , 390 ) ( 500 , 420 ) ( 400 , 420 )
+Rectangle ( 350 , 290 ) ( 450 , 290 ) ( 450 , 350 ) ( 350 , 350 )
+Rectangle ( 450 , 330 ) ( 470 , 330 ) ( 470 , 360 ) ( 450 , 360 )
+Rectangle ( 550 , 230 ) ( 560 , 230 ) ( 560 , 240 ) ( 550 , 240 )
